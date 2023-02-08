@@ -13,7 +13,7 @@ const Features: NextPage = () => {
                 </p>
             </div>
             <div className="flex flex-wrap my-12 dark:text-white">
-                <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/4 p-8">
+                <div className="w-full border-b md:w-1/2 md:border-r lg:border-b-0 lg:w-1/4 p-8">
                     <div className="flex items-center mb-6">
                         <FaCheckCircle className="h-8 w-8 text-green-500" />
                         <div className="ml-4 text-2xl font-bold">
@@ -24,7 +24,7 @@ const Features: NextPage = () => {
                         VSMRはWebブラウザ上で使えます。配信の際に特別なアプリをインストールする必要がありません
                     </p>
                 </div>
-                <div className="w-full border-b md:w-1/2 lg:w-1/4 lg:border-r p-8">
+                <div className="w-full border-b md:w-1/2 lg:w-1/4 lg:border-r lg:border-b-0 p-8">
                     <div className="flex items-center mb-6">
                         <FaUserAltSlash className="h-8 w-8 text-indigo-500" />
                         <div className="ml-4 text-2xl font-bold">
@@ -37,7 +37,7 @@ const Features: NextPage = () => {
                         使いたいときにいつでも使うことが可能です
                     </p>
                 </div>
-                <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/4 lg:border-r-0 p-8">
+                <div className="w-full  md:w-1/2 md:border-r lg:w-1/4 lg:border-r p-8">
                     <div className="flex items-center mb-6">
                         <FaBolt className="h-8 w-8 text-yellow-500" />
                         <div className="ml-4 text-2xl font-bold">
@@ -50,7 +50,7 @@ const Features: NextPage = () => {
                         配信中の遅延を気にする必要はありません
                     </p>
                 </div>
-                <div className="w-full border-b md:w-1/2 lg:w-1/4 lg:border-r lg:border-b-0 p-8">
+                <div className="w-full  md:w-1/2 lg:w-1/4 p-8">
                     <div className="flex items-center mb-6">
                         <FaPlayCircle className="h-8 w-8 text-green-500" />
                         <div className="ml-4 text-2xl font-bold">

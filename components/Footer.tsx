@@ -22,7 +22,7 @@ const Footer: NextPage = () => {
                 </div>
                 <div className="text-center font-light flex items-center justify-center">
                     <p>
-                        VSMR Project 2020-2021 © All rights reserved.
+                        VSMR Project 2020-2023 © All rights reserved.
                     </p>
                 </div>
             </div>
