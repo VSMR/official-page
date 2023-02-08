@@ -13,9 +13,23 @@ const Home: NextPage = () => {
     return (
         <div>
             <Head>
+                <meta name="viewport" content="width=device-width,initial-scale=1.0" />
                 <title>VSMR | Virtual ASMR</title>
                 <meta name="description" content="VSMR is voice chat project for ASMR colab on the Internet." />
                 <link rel="icon" href="/favicon.ico" />
+                <meta property="og:url" content="https://nocturne.ml" />
+                <meta property="og:title" content="VSMR | Virtual ASMR" />
+                <meta property="og:site_name" content="VSMR | Virtual ASMR" />
+                <meta property="og:description" content="VSMR is voice chat project for ASMR colab on the Internet." />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="https://nocturne.ml/ogp.png" />
+                <meta name="twitter:image:src" content="https://nocturne.ml/ogp.png" />
+                <meta name="twitter:title" content="VSMR - バイノーラル対応ボイスチャット" />
+                <meta name="twitter:text:title" content="VSMR - バイノーラル対応ボイスチャット" />
+                <meta name="twitter:description" content="VSMRはインターネット上でASMRコラボを可能にするボイスチャットプロジェクトです💪" />
+                <meta name="twitter:site" content="@398noe" />
+                <meta name="twitter:creator" content="@398noe" />
+                <meta name="twitter:card" content="summary_large_image" />
             </Head>
             <Navbar />
 

@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Link from 'next/link';
 
 const Footer: NextPage = () => {
     return (
@@ -16,7 +17,7 @@ const Footer: NextPage = () => {
 
                 <div className="text-center pt-10 sm:pt-12 font-light flex items-center justify-center">
                     <p>
-                        VSMR by <a href="https://twitter.com/398noe">Sakyuba noe. </a>The source code is licensed GPLv3.
+                        VSMR by <Link href="https://twitter.com/398noe">Sakyuba noe. </Link>The source code is licensed GPLv3.
                     </p>
                 </div>
                 <div className="text-center font-light flex items-center justify-center">

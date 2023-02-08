@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Link from 'next/link';
 
 const Contact: NextPage = () => {
     return (
@@ -12,11 +13,6 @@ const Contact: NextPage = () => {
             <p className="text-xl my-4 leading-6 px-4 max-w-3xl mx-auto  text-gray-400">
                 お問い合わせはこちらのGoogle Formからお願いします
             </p>
-            <button type="button" className="py-2 px-4 my-4 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                <a href="https://app.nocturne.ml/">
-                    Start VSMR
-                </a>
-            </button>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfr-KsmIEnbl6F54_wSAsLXlNaeIY3BvkGTagOgZ4wTgP3Ogw/viewform?embedded=true" width="100%" height="600" frameBorder="0">読み込んでいます…</iframe>
         </div>
 

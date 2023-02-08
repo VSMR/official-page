@@ -1,5 +1,4 @@
-import { faBolt, faCheckCircle, faPlayCircle, faTty, faUserAltSlash, faUserFriends } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaBolt, FaCheckCircle, FaPlayCircle, FaTty, FaUserAltSlash, FaUserFriends } from "react-icons/fa";
 import type { NextPage } from 'next';
 
 const Features: NextPage = () => {
@@ -14,9 +13,9 @@ const Features: NextPage = () => {
                 </p>
             </div>
             <div className="flex flex-wrap my-12 dark:text-white">
-                <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
+                <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/4 p-8">
                     <div className="flex items-center mb-6">
-                        <FontAwesomeIcon icon={faCheckCircle} width="32" height="32" className="h-8 w-8 text-green-500" />
+                        <FaCheckCircle className="h-8 w-8 text-green-500" />
                         <div className="ml-4 text-2xl font-bold">
                             簡単
                         </div>
@@ -25,9 +24,9 @@ const Features: NextPage = () => {
                         VSMRはWebブラウザ上で使えます。配信の際に特別なアプリをインストールする必要がありません
                     </p>
                 </div>
-                <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8">
+                <div className="w-full border-b md:w-1/2 lg:w-1/4 lg:border-r p-8">
                     <div className="flex items-center mb-6">
-                        <FontAwesomeIcon icon={faUserAltSlash} width="32" height="32" className="h-8 w-8 text-indigo-500" />
+                        <FaUserAltSlash className="h-8 w-8 text-indigo-500" />
                         <div className="ml-4 text-2xl font-bold">
                             アカウント不要
                         </div>
@@ -38,9 +37,9 @@ const Features: NextPage = () => {
                         使いたいときにいつでも使うことが可能です
                     </p>
                 </div>
-                <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8">
+                <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/4 lg:border-r-0 p-8">
                     <div className="flex items-center mb-6">
-                        <FontAwesomeIcon icon={faBolt} width="32" height="32" className="h-8 w-8 text-yellow-500" />
+                        <FaBolt className="h-8 w-8 text-yellow-500" />
                         <div className="ml-4 text-2xl font-bold">
                             低遅延
                         </div>
@@ -51,9 +50,9 @@ const Features: NextPage = () => {
                         配信中の遅延を気にする必要はありません
                     </p>
                 </div>
-                <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8">
+                <div className="w-full border-b md:w-1/2 lg:w-1/4 lg:border-r lg:border-b-0 p-8">
                     <div className="flex items-center mb-6">
-                        <FontAwesomeIcon icon={faPlayCircle} width="32" height="32" className="h-8 w-8 text-green-500" />
+                        <FaPlayCircle className="h-8 w-8 text-green-500" />
                         <div className="ml-4 text-2xl font-bold">
                             高音質
                         </div>
@@ -63,34 +62,6 @@ const Features: NextPage = () => {
                         ボイスチャットを可能にするために
                         他のボイスチャットの10倍以上の
                         音質での通話を可能にしています
-                    </p>
-                </div>
-                <div className="w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8">
-                    <div className="flex items-center mb-6">
-                        <FontAwesomeIcon icon={faUserFriends} width="32" height="32" className="h-8 w-8 text-indigo-500" />
-                        <div className="ml-4 text-2xl font-bold">
-                            配信者目線
-                        </div>
-                    </div>
-                    <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                        VSMRはVtuberとして活動中の
-                        さきゅばのえが開発しました。
-                        バイノーラル音声を使用したコラボ配信を簡単にすることができます
-                    </p>
-                </div>
-                <div className="w-full md:w-1/2 lg:w-1/3 p-8">
-                    <div className="flex items-center mb-6">
-                        <FontAwesomeIcon icon={faTty} width="32" height="32" className="h-8 w-8 text-yellow-500" />
-                        <div className="ml-4 text-2xl font-bold">
-                            Speech to Text技術(2022年実装)
-                        </div>
-                    </div>
-                    <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                        VSMRは通話時の音声を文字に
-                        自動変換する機能を実装予定です。
-                        発言内容を配信中に表示させたり、
-                        問題のある発言等を文字に残すことで
-                        悪用を防ぐ狙いです
                     </p>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import { useState } from "react";
 import { ToggleDarkMode } from './ToggleDarkMode';
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import Link from 'next/link';
 
 const Navbar: NextPage = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +17,9 @@ const Navbar: NextPage = () => {
                 <div className="max-w-7xl mx-auto px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className=" flex items-center">
-                            <a className="flex-shrink-0" href="/">
+                            <AnchorLink className="flex-shrink-0" href="/">
                                 <h1 className="text-3xl font-black dark:text-white">VSMR</h1>
-                            </a>
+                            </AnchorLink>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
                                     <AnchorLink href="#home" className="text-gray-800  dark:text-white hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" >
@@ -48,7 +49,7 @@ const Navbar: NextPage = () => {
                                     <div className="relative inline-block text-left">
                                         <div>
                                             <button type="button" className="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                                                <a href="https://github.com/VSMR/docs">Go Github</a>
+                                                <Link href="https://github.com/VSMR/docs">Go Github</Link>
                                             </button>
                                         </div>
                                     </div>
@@ -93,7 +94,7 @@ const Navbar: NextPage = () => {
                                     <div className="relative inline-block text-left">
                                         <div>
                                             <button type="button" className="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                                                <a href="./">Github</a>
+                                                <Link href="./">Github</Link>
                                             </button>
                                         </div>
                                     </div>
