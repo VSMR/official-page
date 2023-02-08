@@ -4,9 +4,9 @@ import Link from 'next/link';
 const Hero: NextPage = () => {
     return (
         <div className="flex flex-col justify-center align-center px-4 py-32 flex-grow">
-                <div className="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+                <div className="text-center w-full mx-auto pt-4 pb-16 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
                     <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl mb-12">
-                        <span className="block text-7xl">
+                        <span className="block text-5xl md:text-7xl">
                             VSMR | Virtual ASMR
                         </span>
                         <span className="block text-indigo-500">
